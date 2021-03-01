@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  color: white;
+  font-size: 25px;
+}
+
+.background {
+  background-image: url("https://d3aux7tjp119y2.cloudfront.net/images/DSC01125_hero-CMSTemplate_0kv1mmz.max-1500x1000.jpg");
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  border: solid 1px;
+  position: fixed; /* to put our background in the middle of the page */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex; /* to put text in the canter of background */
+  align-items: center;
+  justify-content: center;
+}
+
+.left-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.center {
+  font-weight: bold;
+  border: 5px solid red;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.center:hover {
+  background-color: lightBlue;
+  color: black;
+}
