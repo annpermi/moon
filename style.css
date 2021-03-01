@@ -38,6 +38,7 @@
   border: 5px solid red;
   border-radius: 20px;
   padding: 20px;
+  cursor: pointer;
 }
 
 .center:hover {
